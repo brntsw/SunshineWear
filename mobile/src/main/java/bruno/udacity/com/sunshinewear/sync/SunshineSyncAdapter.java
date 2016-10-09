@@ -56,7 +56,7 @@ import bruno.udacity.com.sunshinewear.muzei.WeatherMuzeiSource;
 public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
     public final String LOG_TAG = SunshineSyncAdapter.class.getSimpleName();
     public static final String ACTION_DATA_UPDATED =
-            "com.example.android.sunshine.app.ACTION_DATA_UPDATED";
+            "bruno.udacity.com.sunshinewear.ACTION_DATA_UPDATED";
     // Interval at which to sync with the weather, in seconds.
     // 60 seconds (1 minute) * 180 = 3 hours
     public static final int SYNC_INTERVAL = 60 * 180;
