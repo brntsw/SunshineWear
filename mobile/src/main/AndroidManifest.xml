@@ -18,10 +18,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.example.android.sunshine.app.permission.C2D_MESSAGE"
+        android:name="bruno.udacity.com.sunshinewear.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.android.sunshine.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="bruno.udacity.com.sunshinewear.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
@@ -97,7 +97,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.example.android.sunshine.app" />
+                <category android:name="bruno.udacity.com.sunshinewear" />
             </intent-filter>
         </receiver>
         <!-- Muzei Extension -->
@@ -120,7 +120,7 @@
             android:label="@string/title_widget_today">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.example.android.sunshine.app.ACTION_DATA_UPDATED" />
+                <action android:name="bruno.udacity.com.sunshinewear.ACTION_DATA_UPDATED" />
             </intent-filter>
 
             <meta-data
@@ -136,7 +136,7 @@
             android:label="@string/title_widget_detail">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.example.android.sunshine.app.ACTION_DATA_UPDATED" />
+                <action android:name="bruno.udacity.com.sunshinewear.ACTION_DATA_UPDATED" />
             </intent-filter>
 
             <meta-data
